@@ -199,6 +199,11 @@ img.example-image{
 .footer svg.svg-inline--fa:hover {
 	color: #00B3FF;
 }
+
+.footer h3 {
+	text-transform: uppercase;
+	margin: 1.5rem 0;
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
