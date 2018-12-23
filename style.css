@@ -1,23 +1,21 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
-body{
-    overflow-x: hidden;
-    font-family: 'Lato', sans-serif;
-    color: #505962;
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
 }
 
 /* nav scrolling offset*/
-.offset::before{
-    height: 62px;
-    margin-top: -62px; 
-    content: "";
-    display: block;
+.offset::before {
+	height: 62px;
+	margin-top: -62px;
+	content: "";
+	display: block;
 }
 
-[class="col-"]{
-    padding: 1rem;
+[class="col-"] {
+	padding: 1rem;
 }
 
 /* navigation */
@@ -27,34 +25,39 @@ body{
 	font-size: .9rem;
 	font-weight: 700;
 	letter-spacing: .1rem;
-	background-color: rgba(57, 63, 70, .9)!important;
+	background-color: rgba(57, 63, 70, .9) !important;
 }
+
 .navbar-brand img {
 	height: 2rem;
 }
+
 .navbar-nav .nav-link {
 	color: white;
 	padding-top: .8rem;
 }
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
 	color: #00B3FF;
 }
+
 .svg-inline--fa.fa-w-14 {
 	color: white;
 	font-size: 1.6rem;
 }
+
 .navbar-nav li {
 	padding-right: .8rem;
 }
 
 /*============ landing page ===============*/
 
-.home-inner{
+.home-inner {
 	background-image: url(./img/landing.png);
 }
 
-.caption{
+.caption {
 	width: 100%;
 	max-width: 100%;
 	position: absolute;
@@ -62,12 +65,12 @@ body{
 	z-index: 1;
 }
 
-.caption h3{
+.caption h3 {
 	color: white;
 	text-transform: uppercase;
 	font-size: 2.4rem;
 	padding-bottom: 2rem;
-	
+
 }
 
 .btn {
@@ -92,7 +95,7 @@ body{
 	padding-top: 1rem;
 }
 
-h3.heading{
+h3.heading {
 	font-size: 1.9rem;
 	font-weight: 700;
 	text-align: center;
@@ -100,7 +103,7 @@ h3.heading{
 	margin-bottom: 1.9rem;
 }
 
-.heading-underline{
+.heading-underline {
 	width: 3rem;
 	height: 0.2rem;
 	background-color: #00B3FF;
@@ -110,17 +113,17 @@ h3.heading{
 .about svg.svg-inline--fa {
 	color: #00B3FF;
 	margin: 1rem auto;
-	
+
 }
 
-.about h3{
+.about h3 {
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	padding: .4rem;
 }
 
-.about p{
-		font-size: 1.1rem;
+.about p {
+	font-size: 1.1rem;
 }
 
 
@@ -130,18 +133,19 @@ h3.heading{
 	padding: 2rem 0;
 }
 
-.no-padding [class*=col-]{
+.no-padding [class*=col-] {
 	padding: 0;
 }
 
-img.example-image{
+img.example-image {
 	max-width: 100%;
 }
 
-.Portfolio-item{
+.Portfolio-item {
 	overflow: hidden;
 }
-.Portfolio-item img:hover{
+
+.Portfolio-item img:hover {
 	transform: scale(1.1);
 	cursor: zoom-in;
 }
@@ -170,14 +174,14 @@ img.example-image{
 }
 
 .card p {
-	border-top: 1px solid rgba(0, 0 , 0 ,0.1);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 1rem;
 	margin: 1rem 0 1.5rem;
 }
 
 
 /*============ Testimonials Contact Section ===========*/
-.footer .row{
+.footer .row {
 	background: rgba(57, 63, 70, .85);
 	padding: 1rem 2rem 3rem;
 	color: white;
@@ -188,11 +192,11 @@ img.example-image{
 	margin: 1.5rem 0;
 }
 
-.footer a{
+.footer a {
 	color: white;
 }
 
-.footer svg.svg-inline--fa{
+.footer svg.svg-inline--fa {
 	margin: 1.2rem .5rem 0 0;
 }
 
@@ -215,16 +219,16 @@ img.example-image{
 	border: .15rem solid #666b71;
 }
 
-.form-group input::placeholder, 
+.form-group input::placeholder,
 .form-group textarea::placeholder {
-	color: #b2b5b8!important;
+	color: #b2b5b8 !important;
 }
 
 input.btn {
 	cursor: pointer;
 }
 
-hr.Socket{
+hr.Socket {
 	width: 100%;
 	border-top: .2rem solid #666b71;
 }
@@ -237,10 +241,11 @@ hr.Socket{
 
 /* Medium (md) devices (tablets, 768px and under) */
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 	.caption {
 		top: 35%;
 	}
+
 	.caption h3 {
 		font-size: 1.8rem;
 		padding-bottom: 1.2rem;
