@@ -77,6 +77,8 @@ body{
 	font-size: .9rem;
 	text-transform: uppercase;
 }
+
+
 /*============ About Section ===========*/
 .jumbotron {
 	margin-bottom: 0;
@@ -119,6 +121,33 @@ h3.heading{
 
 .about p{
 		font-size: 1.1rem;
+}
+
+
+/*============ Portfolio Section ===========*/
+
+.padding {
+	padding: 2rem 0;
+}
+
+.no-padding [class*=col-]{
+	padding: 0;
+}
+
+img.example-image{
+	max-width: 100%;
+}
+
+.Portfolio-item{
+	overflow: hidden;
+}
+.Portfolio-item img:hover{
+	transform: scale(1.1);
+	cursor: zoom-in;
+}
+
+.Portfolio-item img {
+	transition: transform .4s ease;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
