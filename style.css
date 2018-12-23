@@ -19,6 +19,64 @@ body{
 [class="col-"]{
     padding: 1rem;
 }
+
+/* navigation */
+.navbar {
+	padding: .6rem 1rem;
+	text-transform: uppercase;
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	background-color: rgba(57, 63, 70, .9)!important;
+}
+.navbar-brand img {
+	height: 2rem;
+}
+.navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+	color: #00B3FF;
+}
+.svg-inline--fa.fa-w-14 {
+	color: white;
+	font-size: 1.6rem;
+}
+.navbar-nav li {
+	padding-right: .8rem;
+}
+
+/*============ landing page ===============*/
+
+.home-inner{
+	background-image: url(./img/landing.png);
+}
+
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+.caption h3{
+	color: white;
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	padding-bottom: 2rem;
+	
+}
+
+.btn {
+	border-width: medium;
+	border-radius: 0;
+	padding: .5rem 1.1rem;
+	font-size: .9rem;
+	text-transform: uppercase;
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
