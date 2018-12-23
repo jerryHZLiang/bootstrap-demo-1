@@ -229,6 +229,25 @@ hr.Socket{
 	border-top: .2rem solid #666b71;
 }
 
+
+
+
+
+/*============ Media Queries ===========*/
+
+/* Medium (md) devices (tablets, 768px and under) */
+
+@media (max-width: 768px) { 
+	.caption {
+		top: 35%;
+	}
+	.caption h3 {
+		font-size: 1.8rem;
+		padding-bottom: 1.2rem;
+	}
+}
+
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
