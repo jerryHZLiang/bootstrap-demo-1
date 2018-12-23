@@ -204,6 +204,31 @@ img.example-image{
 	text-transform: uppercase;
 	margin: 1.5rem 0;
 }
+
+/* -----------Contact Form -------------*/
+.form-group {
+	margin-bottom: 1.3rem;
+}
+
+.form-control {
+	background: #53595f;
+	border: .15rem solid #666b71;
+}
+
+.form-group input::placeholder, 
+.form-group textarea::placeholder {
+	color: #b2b5b8!important;
+}
+
+input.btn {
+	cursor: pointer;
+}
+
+hr.Socket{
+	width: 100%;
+	border-top: .2rem solid #666b71;
+}
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
